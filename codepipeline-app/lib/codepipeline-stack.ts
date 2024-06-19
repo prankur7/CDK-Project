@@ -13,6 +13,8 @@ export interface pipelineProps {
     bucketObjectUri: string;
 }
 
+
+
 export class MyCdkConstruct extends Construct {
   constructor(scope: Construct, id: string, props: pipelineProps) {
     super(scope, id);
