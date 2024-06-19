@@ -1,0 +1,12 @@
+version: "0.2"
+
+phases:
+  build:
+    commands:
+      # - echo "Installing AWS CLI and SAM CLI"
+      # - pip install awscli
+      # - pip install aws-sam-cli
+      # - python3 -m pip install --upgrade pip
+      # - echo "Configuring AWS CLI"
+      # - echo "Running CDK synth"
+      - ls
